@@ -2,7 +2,7 @@ import tkinter as tk
 from time import sleep, strftime
 from PIL import ImageTk, Image, ImageGrab
 from colormap import rgb2hex
-from custom import COLOR_SHIFT, POSITION, FONT
+from custom import COLOR_SHIFT, POSITION, FONT, INVERSE
 
 root = tk.Tk()
 root.wm_title("Clock")
@@ -15,6 +15,8 @@ def get_accent_color():
     global color
     px = list(ImageGrab.grab().load()[ws - POSITION[0], POSITION[1]])
     for i in range(len(px)):
+        if INVERSE == 1:
+            px[i] = 255 - px[i]
         shifted = px[i] + COLOR_SHIFT[i]
         if shifted <= 255 and shifted >= 0:
             px[i] = shifted
