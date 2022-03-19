@@ -1,3 +1,5 @@
+# Simplest Desktop Clock
+
 The simplest possible customizable desktop clock on any operating system 😎 made with python
 
 What it does:
@@ -5,20 +7,16 @@ What it does:
 - It changes colors with your wallpaper
 
 ## Install
-To install the program, simply download the project, navigate to the folder, and install the requirements:
-```
-pip install -r requirements.text
-```
-Customize your clock in `custom.py`. See below for some things you can do to customize it.
+To install the program, simply download the project, navigate to the folder, and run `install.bat`.
 
 Then, copy the files to your start folder so it appears every time your computer starts up @ `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`. You can get to this folder easily by running CTRL + R, pasting the previous path, and pressing run. After you do this, restart your computer and the clock should appear.
 
-To remove the clock, just delete the files from the start folder and restart your computer.
+To remove the clock, just navigate to the folder and run `uninstall.bat`.
 
 Simple, right?
 
 ## Customizing your clock
-Explore some constants in `custom.py`! Here's a quick reference:
+Run `customize.bat` at any time to customize some properties of the clock, or do it manually by changing values in `custom.py`:
 | Property | Description |
 | ---- | ---- |
 | `COLOR_SHIFT` | RBG values to shift your clock's color from the wallpaper color. Format: `(r, g, b)`. These values can be negative or positive. |
