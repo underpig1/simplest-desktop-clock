@@ -23,3 +23,5 @@ Find premade themes for your clock in the `themes` folder. Run any of these to s
 Make a theme by running `theme.bat`; you will be able to find custom themes in the `themes` folder.
 
 Have fun!
+
+(Other apps I used for the example: TranslucentTB, (Modern Flyouts)[https://modernflyouts-community.github.io/])
