@@ -2,7 +2,7 @@ import tkinter as tk
 from time import sleep, strftime
 from PIL import ImageTk, Image, ImageGrab
 from colormap import rgb2hex
-from constants import COLOR_SHIFT, POSITION
+from custom import COLOR_SHIFT, POSITION
 
 root = tk.Tk()
 root.wm_title("Clock")
