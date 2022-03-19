@@ -1,6 +1,6 @@
 # Simplest Desktop Clock
 
-The simplest possible customizable desktop clock on any operating system 😎 made with python
+The simplest possible customizable desktop clock 😎 made with python
 
 What it does:
 - It's a desktop clock
@@ -15,4 +15,4 @@ To remove the clock just navigate to the folder and run `uninstall.bat`.
 Simple, right?
 
 ## Customizing your clock
-Run `customize.bat` at any time to customize some properties of the clock, or do it manually by changing values in `custom.py`.
+After installing you can customize your clock by running `customize.bat` at any time, or do it manually by changing values in `custom.py`. To reset these custom values to defaults, run `defaults.bat`
