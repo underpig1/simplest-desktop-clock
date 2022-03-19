@@ -24,4 +24,4 @@ Make a theme by running `theme.bat`; you will be able to find custom themes in t
 
 Have fun!
 
-> Other apps I used in the example: TranslucentTB, [Modern Flyouts](https://modernflyouts-community.github.io/)
+> Other apps I used in the example: TranslucentTB, [Modern Flyouts](https://modernflyouts-community.github.io/); theme is Roboto
