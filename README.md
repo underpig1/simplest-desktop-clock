@@ -16,4 +16,4 @@ To remove the clock just navigate to the folder and run `uninstall.bat`. Don't f
 ## Customizing your clock
 After installing you can customize your clock by running `customize.bat` at any time, or do it manually by changing values in `custom.py`. Find premade themes for your clock in the `themes` folder. Run any of these to set the clock's theme. You can find the default theme at `themes/defaults.bat`. Make a theme by running `theme.bat`.
 
-Pretty simple, right?
+Pretty simple, right? Have fun!
