@@ -13,8 +13,11 @@ hs = root.winfo_screenheight()
 
 def get_accent_color():
     global color
-    px = list(ImageGrab.grab().load()[ws - POSITION[0], POSITION[1]])
     if SOLID != 1:
+        try:
+            px = list(ImageGrab.grab().load()[ws - POSITION[0], POSITION[1]])
+        except:
+            px = (0, 0, 0)
         for i in range(len(px)):
             if INVERSE == 1:
                 px[i] = 255 - px[i]
