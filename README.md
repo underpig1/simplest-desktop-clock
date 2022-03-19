@@ -2,7 +2,7 @@
 
 The simplest possible customizable desktop clock 😎 made with python
 
-![Clock](example-clock.png)
+![Clock](example_clock.png)
 
 What it does:
 - It's a desktop clock
