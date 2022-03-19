@@ -15,4 +15,4 @@ To remove the clock just navigate to the folder and run `uninstall.bat`.
 Simple, right?
 
 ## Customizing your clock
-After installing you can customize your clock by running `customize.bat` at any time, or do it manually by changing values in `custom.py`. To reset these custom values to defaults, run `defaults.bat`
+After installing you can customize your clock by running `customize.bat` at any time, or do it manually by changing values in `custom.py`. To reset these custom values to defaults, run `defaults.bat`.
