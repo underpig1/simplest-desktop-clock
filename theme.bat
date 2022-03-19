@@ -12,5 +12,5 @@ echo COLOR_SHIFT = (%r%, %g%, %b%) > "%appdata%\Microsoft\Windows\Start Menu\Pro
 echo POSITION = (%x%, %y%) >> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py"
 echo FONT = ("%font%", %size%, "%weight%") >> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py"
 echo COLOR_SHIFT = (%r%, %g%, %b%) ^> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py" > "themes\%name%.bat"
-echo POSITION = (%x%, %y%) ^>^> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py" >> "themes\%name%"
+echo POSITION = (%x%, %y%) ^>^> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py" >> "themes\%name%.bat"
 echo FONT = ("%font%", %size%, "%weight%") ^>^> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\custom.py" >> "themes\%name%.bat"
