@@ -2,6 +2,8 @@
 
 The simplest possible customizable desktop clock 😎 made with python
 
+![Clock](example-clock.png)
+
 What it does:
 - It's a desktop clock
 - It changes colors with your wallpaper
