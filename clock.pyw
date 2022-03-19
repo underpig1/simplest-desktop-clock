@@ -13,7 +13,7 @@ hs = root.winfo_screenheight()
 
 def get_accent_color():
     global color
-    px = list(ImageGrab.grab().load()[ws - 600, 75])
+    px = list(ImageGrab.grab().load()[ws - POSITION[0], POSITION[1]])
     for i in range(len(px)):
         shifted = px[i] + COLOR_SHIFT[i]
         if shifted <= 255 and shifted >= 0:
