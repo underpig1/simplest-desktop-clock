@@ -5,6 +5,7 @@ The simplest possible customizable desktop clock on any operating system 😎 ma
 What it does:
 - It's a desktop clock
 - It changes colors with your wallpaper
+The best part is, it's customizable! So have fun!
 
 ## Install
 To install the program, simply download the project, navigate to the folder, and run `install.bat`.
@@ -21,3 +22,6 @@ Run `customize.bat` at any time to customize some properties of the clock, or do
 | ---- | ---- |
 | `COLOR_SHIFT` | RBG values to shift your clock's color from the wallpaper color. Format: `(r, g, b)`. These values can be negative or positive. |
 | `POSITION` | Specifies where to place the clock relative to the top right corner of your screen. Format: `(x, y)`. |
+| `FONT` | String representing clock text font. |
+| `FONT_SIZE` | Integer specifying clock text font size. |
+| `FONT_WEIGHT` | String representing clock text font weight (ex. `"bold"`) |
