@@ -2,7 +2,7 @@ import tkinter as tk
 from time import sleep, strftime
 from PIL import ImageTk, Image, ImageGrab
 from colormap import rgb2hex
-from custom import COLOR_SHIFT, POSITION
+from custom import COLOR_SHIFT, POSITION, FONT
 
 root = tk.Tk()
 root.wm_title("Clock")
@@ -29,7 +29,7 @@ time = tk.StringVar()
 
 get_accent_color()
 
-label = tk.Label(root, textvariable = time, foreground = color, background = "gray", width = 100, height = 110, font = ("Roboto Mono", 75, "bold"))
+label = tk.Label(root, textvariable = time, foreground = color, background = "gray", width = 100, height = 110, font = FONT)
 label.pack(side = "right")
 
 root.geometry('%dx%d+%d+%d' % (500, 110, ws - POSITION[0], POSITION[1]))
