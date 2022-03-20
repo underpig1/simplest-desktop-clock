@@ -7,6 +7,7 @@ The simplest possible customizable desktop clock 😎 made with python
 What it does:
 - It's a desktop clock
 - It changes colors with your wallpaper
+- It acts just like a part of your wallpaper -- as in, you can't drag it and it stays behind any open windows
 
 The best part is, it's customizable! So have fun!
 
