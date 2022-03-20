@@ -14,7 +14,7 @@ The best part is, it's customizable! So have fun!
 ## Install
 To install the program, simply download the project, navigate to the folder, and run `install.bat`.
 
-To remove the clock just navigate to the folder and run `uninstall.bat`. Don't forget to restard your computer after uninstalling it for the changes to take place.
+To remove the clock just navigate to the folder and run `uninstall.bat`. Don't forget to restart your computer after uninstalling it for the changes to take place.
 
 ## Customizing your clock
 After installing you can customize your clock by running `customize.bat` at any time, or do it manually by changing values in `custom.py`.
